@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  dns-resolver-api:
+    build: .
+    image: nhan2804/dns-resolver:latest
+    container_name: dns-resolver-api
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+    restart: always

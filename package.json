@@ -1,0 +1,16 @@
+{
+  "name": "custom-dns-resolver-api",
+  "version": "1.0.0",
+  "description": "An API to resolve domains using custom DNS servers.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dns": "^0.2.2"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
