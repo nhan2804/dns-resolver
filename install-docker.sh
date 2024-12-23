@@ -19,7 +19,8 @@ apt-cache policy docker-ce
 
 echo "Installing Docker CE..."
 sudo apt-get install -y docker-ce
-
+echo "Installing docker compose"
+sudo apt install docker-compose-plugin
 # Latest version of docker already comes with compose, so no need to install it
 #echo "Done! Installing docker compose..."
 #sudo apt-get install -y docker-compose
