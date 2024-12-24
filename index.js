@@ -7,6 +7,7 @@ app.use(express.json());
 
 const typeMapping = {
   Viettel: ["203.113.131.1"],
+  VNPT: ["123.30.215.27"],
 };
 
 // Disclaimer message
